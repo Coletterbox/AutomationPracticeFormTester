@@ -9,6 +9,7 @@ import java.net.URL;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.Select;
 
 public class HomePage {
     WebDriver webDriver;
@@ -57,5 +58,34 @@ public class HomePage {
 
     public static void enterTextIntoBox(WebDriver webDriver, String boxId, String input) {
         webDriver.findElement(By.id(boxId)).sendKeys(input);
+    }
+
+    public static void selectGender(WebDriver webDriver, boolean isMale) {
+        if (isMale) {
+            webDriver.findElement(By.id("customRadioInline1")).click();
+        } else {
+            webDriver.findElement(By.id("customRadioInline2")).click();
+        }
+    }
+
+    public static void chooseCounty(WebDriver webDriver, String county) {
+        Select dropdownCounty = new Select(webDriver.findElement(By.id("inputCounty")));
+        dropdownCounty.selectByVisibleText(county);
+    }
+
+    public static void selectStream(WebDriver webDriver, boolean isSdet) {
+        if (isSdet) {
+            webDriver.findElement(By.id("streamRadioInline1")).click();
+        } else {
+            webDriver.findElement(By.id("streamRadioInline2")).click();
+        }
+    }
+
+    public static void agreeToTermsAndConditions(WebDriver webDriver) {
+        webDriver.findElement(By.id("terms")).click();
+    }
+
+    public static void rateForm(WebDriver webDriver, int rating) {
+//        webDriver.findElement(By.id("experienceSlider")).
     }
 }
