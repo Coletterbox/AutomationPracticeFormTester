@@ -47,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.testNameField">
+  <component name="RunManager" selected="JUnit.AppTest.testFields">
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutomationPracticeFormTester" />
       <extension name="coverage">
@@ -59,6 +59,22 @@
       <option name="PACKAGE_NAME" value="com.sparta.crss" />
       <option name="MAIN_CLASS_NAME" value="com.sparta.crss.AppTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testFields" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutomationPracticeFormTester" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.crss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.crss" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.crss.AppTest" />
+      <option name="METHOD_NAME" value="testFields" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,6 +129,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest.testFields" />
         <item itemvalue="JUnit.AppTest.testNameField" />
         <item itemvalue="JUnit.AppTest.testTest" />
         <item itemvalue="JUnit.AppTest" />

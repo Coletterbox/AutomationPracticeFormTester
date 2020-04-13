@@ -40,6 +40,7 @@ public class HomePage {
         webDriver.findElement(By.name(boxName));
     }
 
+    //TODO: remove redundant methods
     public static void findFirstNameBox(WebDriver webDriver) {
         findBoxById(webDriver, "firstName");
     }
@@ -52,5 +53,9 @@ public class HomePage {
 
     public static void findLastNameBox(WebDriver webDriver) {
         findBoxById(webDriver, "lastName");
+    }
+
+    public static void enterTextIntoBox(WebDriver webDriver, String boxId, String input) {
+        webDriver.findElement(By.id(boxId)).sendKeys(input);
     }
 }

@@ -43,4 +43,8 @@ public class AppTest {
         HomePage.enterFirstName(webDriver, "Bob");
     }
 
+    @Test
+    public void testFields() {
+        HomePage.enterTextIntoBox(webDriver, "lastName", "Smith");
+    }
 }
