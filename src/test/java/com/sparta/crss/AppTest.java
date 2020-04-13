@@ -31,7 +31,6 @@ public class AppTest {
     @BeforeAll
     public static void setup() {
         new HomePage(webDriver);
-//        HomePage.thisIsFromStackOverflow();
     }
 
     @Test
@@ -39,11 +38,6 @@ public class AppTest {
         assertEquals("test", "test");
     }
 
-//    @Test
-    @Ignore
-    // For testing purposes:
-    public void testSubmitLink() {
-        assertEquals("https://news.ycombinator.com/submit", HomePage.getUrl(webDriver, "submit"));
-    }
+
 
 }
