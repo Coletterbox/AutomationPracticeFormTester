@@ -14,16 +14,18 @@ public class HomePage {
     String link = "http://localhost:9292/";
 //    String link = "http://127.0.0.1:9292/";
 
-    public static RemoteWebDriver thisIsFromStackOverflow() throws MalformedURLException {
-        DesiredCapabilities capability = DesiredCapabilities.internetExplorer();
-        RemoteWebDriver driver = new RemoteWebDriver(new URL("http://localhost:9292/"), capability);
-        return driver;
-    }
+//    public static RemoteWebDriver thisIsFromStackOverflow() throws MalformedURLException {
+//        DesiredCapabilities capability = DesiredCapabilities.internetExplorer();
+//        RemoteWebDriver driver = new RemoteWebDriver(new URL("http://localhost:9292/"), capability);
+//        return driver;
+//    }
 
     public HomePage(WebDriver webDriver) {
         this.webDriver = webDriver;
         setUp(webDriver);
         webDriver.get(link);
+        // For testing purposes:
+//        webDriver.get("https://news.ycombinator.com/");
     }
 
     public void setUp(WebDriver webDriver) {

@@ -3,6 +3,7 @@ package com.sparta.crss;
 import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.jupiter.api.BeforeAll;
 import org.openqa.selenium.WebDriver;
@@ -13,21 +14,25 @@ import java.net.MalformedURLException;
 /**
  * Unit test for simple App.
  */
-public class AppTest 
-{
+public class AppTest {
     static WebDriver webDriver = new ChromeDriver();
 
     @BeforeAll
-    public static void setup() throws MalformedURLException {
+    public static void setup() {
         new HomePage(webDriver);
-        HomePage.thisIsFromStackOverflow();
+//        HomePage.thisIsFromStackOverflow();
     }
 
     @Test
-    public void testTest()
-    {
+    public void testTest() {
         assertEquals("test", "test");
     }
 
+//    @Test
+    @Ignore
+    // For testing purposes:
+    public void testSubmitLink() {
+        assertEquals("https://news.ycombinator.com/submit", HomePage.getUrl(webDriver, "submit"));
+    }
 
 }
