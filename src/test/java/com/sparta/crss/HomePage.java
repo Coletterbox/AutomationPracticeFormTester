@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
@@ -27,5 +28,29 @@ public class HomePage {
     public static String getUrl(WebDriver webDriver, String text) {
         webDriver.findElement(By.linkText(text)).click();
         return webDriver.getCurrentUrl();
+    }
+
+    //TODO: condense into overloaded findBox() method
+    public static void findBoxById(WebDriver webDriver, String boxName) {
+        webDriver.findElement(By.id(boxName));
+    }
+
+    //TODO: condense into overloaded findBox() method
+    public static void findBoxByName(WebDriver webDriver, String boxName) {
+        webDriver.findElement(By.name(boxName));
+    }
+
+    public static void findFirstNameBox(WebDriver webDriver) {
+        findBoxById(webDriver, "firstName");
+    }
+
+    public static void enterFirstName(WebDriver webDriver, String name) {
+//        findFirstNameBox(webDriver).sendKeys(name);
+        WebElement firstName = webDriver.findElement(By.id("firstName"));
+        firstName.sendKeys(name);
+    }
+
+    public static void findLastNameBox(WebDriver webDriver) {
+        findBoxById(webDriver, "lastName");
     }
 }

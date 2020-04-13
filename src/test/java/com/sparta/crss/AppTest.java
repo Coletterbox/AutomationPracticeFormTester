@@ -38,6 +38,9 @@ public class AppTest {
         assertEquals("test", "test");
     }
 
-
+    @Test
+    public void testNameField() {
+        HomePage.enterFirstName(webDriver, "Bob");
+    }
 
 }

@@ -5,6 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/sparta/crss/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sparta/crss/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/sparta/crss/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sparta/crss/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sparta/crss/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/sparta/crss/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sparta/crss/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/sparta/crss/HomePage.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.testTest">
+  <component name="RunManager" selected="JUnit.AppTest.testNameField">
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutomationPracticeFormTester" />
       <extension name="coverage">
@@ -57,6 +59,22 @@
       <option name="PACKAGE_NAME" value="com.sparta.crss" />
       <option name="MAIN_CLASS_NAME" value="com.sparta.crss.AppTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testNameField" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutomationPracticeFormTester" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.crss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.crss" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.crss.AppTest" />
+      <option name="METHOD_NAME" value="testNameField" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,6 +113,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest.testNameField" />
         <item itemvalue="JUnit.AppTest.testTest" />
         <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.AppTest.testSubmitLink" />
