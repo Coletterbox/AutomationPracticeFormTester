@@ -60,6 +60,10 @@ public class HomePage {
         webDriver.findElement(By.id(boxId)).sendKeys(input);
     }
 
+    public static String getTextFromBox(WebDriver webDriver, String boxId) {
+        return webDriver.findElement(By.id(boxId)).getText();
+    }
+
     public static void selectGender(WebDriver webDriver, boolean isMale) {
         if (isMale) {
             webDriver.findElement(By.id("customRadioInline1")).click();
