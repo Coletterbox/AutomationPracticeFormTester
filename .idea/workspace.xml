@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acb5171b-a5ae-4f63-b2dd-567825430afe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sparta/crss/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestRunner.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +30,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Colette Shaw\AutomationPracticeFormTester\src\test\java\com\sparta\crss" />
       <recent name="C:\Users\Colette Shaw\AutomationPracticeFormTester\src\test" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -51,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.testFields">
+  <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutomationPracticeFormTester" />
       <extension name="coverage">
@@ -99,22 +101,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testSubmitLink" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AutomationPracticeFormTester" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sparta.crss" />
-      <option name="MAIN_CLASS_NAME" value="com.sparta.crss.AppTest" />
-      <option name="METHOD_NAME" value="testSubmitLink" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AppTest.testTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutomationPracticeFormTester" />
       <extension name="coverage">
@@ -131,13 +117,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutomationPracticeFormTester" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.crss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.crss" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.crss.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="JUnit.AppTest.testFields" />
         <item itemvalue="JUnit.AppTest.testNameField" />
         <item itemvalue="JUnit.AppTest.testTest" />
         <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="JUnit.AppTest.testSubmitLink" />
       </list>
     </recent_temporary>
   </component>
