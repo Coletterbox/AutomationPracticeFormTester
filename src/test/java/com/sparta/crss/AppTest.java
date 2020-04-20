@@ -7,23 +7,16 @@ package com.sparta.crss;
 //import org.junit.Test;
 //import org.junit.jupiter.api.BeforeAll;
 
-import org.junit.Ignore;
+import com.sparta.crss.page.HomePage;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 //import org.junit.jupiter.*;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
-import java.net.MalformedURLException;
 
 public class AppTest {
     static WebDriver webDriver = new ChromeDriver();

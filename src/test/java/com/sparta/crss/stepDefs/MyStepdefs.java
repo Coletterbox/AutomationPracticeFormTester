@@ -1,4 +1,6 @@
-import com.sparta.crss.HomePage;
+package com.sparta.crss.stepDefs;
+
+import com.sparta.crss.page.HomePage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
